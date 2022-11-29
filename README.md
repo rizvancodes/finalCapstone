@@ -1,16 +1,16 @@
 # Inventory Manager
 #### Description
-This inventory manager takes in a text file containing the inventory of the warehouse and has the following functions
-Search products by code
-Determine the product with the lowest quantity and restock it
-Determine the product with the highest quantity
-Calculate the total value of each stock item
-The total value is calculated by multiplying the cost by the quantity for each item entered into the system.
+This inventory manager takes in a text file containing the inventory of the warehouse and has the following functions\
+Search products by code\
+Determine the product with the lowest quantity and restock it\
+Determine the product with the highest quantity\
+Calculate the total value of each stock item\
+The total value is calculated by multiplying the cost by the quantity for each item entered into the system.\
 
 #### Contents
-1.Installation
-2.Usage
-3.Credits
+1.Installation\
+2.Usage\
+3.Credits\
 
 # Installation
 Before you start the program please ensure you place **inventory.py** and a text file named **inventory.txt** in the same directory
