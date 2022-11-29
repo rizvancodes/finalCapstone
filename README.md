@@ -10,7 +10,7 @@ The total value is calculated by multiplying the cost by the quantity for each i
 #### Contents
 1.Installation\
 2.Usage\
-3.Credits\
+3.Credits
 
 # Installation
 Before you start the program please ensure you place **inventory.py** and a text file named **inventory.txt** in the same directory
@@ -40,17 +40,18 @@ e - Exit
 
 ## Shoes Class
 Attributes of class:
-● country,
-● code,
-● product,
-● cost, and
-● quantity.
+● country\
+● code\
+● product\
+● cost\
+● quantity\
+
 o Inside
-This class defines the following methods:
-▪ get_cost - Returns the cost of the shoes.
-▪ get_quantity -Returns the quantity of the shoes.
-▪ __str_ - This method returns a string representation of a
-class.
+This class defines the following methods:\
+▪ get_cost - Returns the cost of the shoes.\
+▪ get_quantity -Returns the quantity of the shoes.\
+▪ __str__ This method returns a string representation of a
+class.\
 
 ## read_shoes_data
 This function will open the file inventory.txt and read the data from this file, then create a shoes object and append this object into the shoes list. One line in inventory.txt should representd data to create one object of shoes. If the inventory is not in the same directory as the program then you will be prompted to add it to the directory.
