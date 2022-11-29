@@ -44,14 +44,14 @@ Attributes of class:
 ● code\
 ● product\
 ● cost\
-● quantity\
+● quantity
 
 o Inside
 This class defines the following methods:\
 ▪ get_cost - Returns the cost of the shoes.\
 ▪ get_quantity -Returns the quantity of the shoes.\
-▪ __str__ This method returns a string representation of a
-class.\
+▪ ____str____ This method returns a string representation of a
+class.
 
 ## read_shoes_data
 This function will open the file inventory.txt and read the data from this file, then create a shoes object and append this object into the shoes list. One line in inventory.txt should representd data to create one object of shoes. If the inventory is not in the same directory as the program then you will be prompted to add it to the directory.
